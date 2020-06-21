@@ -10,10 +10,17 @@
 }
 
 .header {
+  display: flex;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  border: 1px solid black;
   /* выше установили ограничения для секции */
+}
+
+.content {
+  border: 2px solid red;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -28,4 +35,189 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.top {
+  top: 100px;
+}
+
+.logo {
+  border: 1px solid blueviolet;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo__place_header {
+  background-image: url('../images/logo_place_header.svg');
+  height: 32px;
+  width: 183px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.title {
+  display: flex;
+  margin: auto 64px;
+  width: 730px;
+  font-size: 102px;
+  text-decoration: none;
+  color: #10191E;
+  border: 1px solid green;
+  font-weight: bold;
+}
+
+.subtitle {
+  display: flex;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191E;
+  border: 1px solid pink;
+  position: absolute;
+  font-weight: normal;
+}
+
+.header__image {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 765px;
+  width: 608px;
+  border: 1px solid pink;
+}
+
+.main-illustration {
+  border: 1px solid pink;
+  width: 100%;
+}
+
+.square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  height: 568px;
+  width: 568px;
+  background-color: blue;
+  z-index: -1;
+}
+
+.two-columns {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+
+.brief {
+  background-color: burlywood;
+  width: 175px;
+}
+
+.main-text {
+  background-color: cadetblue;
+  width: 80%;
+  min-width: 784px;
+}
+
+.otstup {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-title {
+  line-height: 69px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.table {
+  width: 1100px;
+  margin: auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.cell_margin {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cell {
+  width:250px;
+  border: 1px solid red;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  border: 1px solid gray;
+  line-height: 1.15;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text {
+  border: 1px solid darkcyan;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.feinman {
+  height: 790px;
+  border: 1px solid olive;
+  margin-top: 100px;
+}
+
+.feinman-title {
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feinman-subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.feinman-subtitle {
+  text-align: center;
+}
+
+.feinman-link {
+  position: absolute;
+}
+
+.feinman-image {
+  height: 637px;
+  width: 867px;
+  background-image: url(../images/feynman.png);
+  background-position: bottom left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid tan;
 }
