@@ -33,12 +33,6 @@ li {
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -224,7 +218,7 @@ li {
   text-align: center;
   line-height: 51px;
   font-size: 36px;
-  padding-top: 70px ;
+  padding-top: 70px;
 }
 
 .feinman__link {
